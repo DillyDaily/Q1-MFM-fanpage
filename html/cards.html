@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Murderinos Unite</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src='../scripts/cards.js'></script>
+    <link rel="stylesheet" href="../style/cards.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="http://www.iconarchive.com/download/i59202/sirea/sharp-kitchen/Knife.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <h5>Please select the murdery information you'd like to view: </h5>
+            <form action="#" id="cardInfo">
+                <div>
+                    <input class="check" type="checkbox" id="murderer" />
+                    <label for="murderer">Murderer Name</label>
+                    <input class="check" type="checkbox" id="victims" />
+                    <label for="victims">Known Victims</label>
+                    <input class="check" type="checkbox" id="survivors" />
+                    <label for="survivors">Known survivors</label>
+                    <input class="check" type="checkbox" id="convictions" />
+                    <label for="convictions">Conviction(s)</label>
+                    <input class="check" type="checkbox" id="sentence" />
+                    <label for="sentence">Sentence</label>
+                    <input class="check" type="checkbox" id="weapon" />
+                    <label for="weapon">Weapon(s)</label>
+                    <input class="check" type="checkbox" id="alias" />
+                    <label for="alias">Alias</label>
+                    <input class="check" type="checkbox" id="podcastNum" />
+                    <label for="podcastNum">MFM Podcast Number</label>
+                </div>
+            </form>
+        </div>
+        <!-- <div class ="accum"> </div> -->
+        <!-- <span class = "serachBtn">
+        <form action="#">
+                <input type="type" id="search" placeholder="Search">
+                <button id="search-button">Search</button>
+              </form>
+            </span> -->
+    </nav>
+    <main>
+        <div class="row">
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action">
+                    </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action"> </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action"> </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m3">
+                <div class="card sticky-action terrible">
+                    <div class="card-image waves-effect waves-block waves-light">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Name This Creep<i class="material-icons right">fingerprint</i></span>
+                    </div>
+                    <div class="card-action"> </div>
+                    <div class="card-reveal">
+                        <span class="name card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Trigger -->
+        <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+        <!-- Modal Structure -->
+        <!-- <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>You Made It!</h4>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div> -->
+    </main>
+
+    <footer>
+        <h6>© 2017 Copyright Text</h6>
+    </footer>
+</body>
+
+</html>

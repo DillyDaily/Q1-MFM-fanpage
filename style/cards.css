@@ -1,0 +1,86 @@
+nav {
+    background-color: black !important;
+    color: white;
+    height: 140px !important;
+    font-family: 'Glegoo', serif;
+    padding: 2% 0% 0% 2%
+}
+main {
+    background: url("https://cdn.shopify.com/s/files/1/1056/3342/products/cutesie-floral_grande.jpg?v=1501264107");
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    height: 35px;
+    color: white;
+    font-size: 10;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    padding: 2px;
+}
+.col {
+    margin-bottom: 20px;
+}
+.activator {
+    height: 350px;
+}
+
+.card-content{
+    height: 100px;
+}
+
+.card-title {
+    height: 20px;
+}
+
+.terrible {
+    height: 595px !important;
+    background-size: cover;
+    -webkit-box-sizing: inherit;
+    background-repeat: no-repeat;
+    box-sizing: inherit;
+}
+
+.nailedIt {
+    font-family: 'Glegoo', serif;
+    font-size: 24px;
+    padding: 3%;
+    border-radius: 5px;
+    border: 2px solid #8BA039;
+    background: #8BA039;
+    color: white;
+    margin-right: 5%;
+}
+
+.wrong {
+    font-family: 'Glegoo', serif;
+    font-size: 24px;
+    padding: 3%;
+    border-radius: 5px;
+    border: 2px solid #E26464;
+    background: #E26464;
+    color: white;
+}
+
+i.material-icons{
+    vertical-align: middle !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+label{
+    padding-left: 25px !important;
+    padding-right: 5px;
+}
+
+.sticky-action {
+    border: 2px solid black;
+    
+}
+
+/* .serachBtn {
+    display: flex;
+    justify-content: flex-end;
+} */

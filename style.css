@@ -1,0 +1,64 @@
+.nav-wrapper{
+    height: 70px !important;
+}  
+
+main {
+    margin: 0px;
+    padding: 0px;
+    background: url("./images/teddy-kelley.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#lefthand{
+    padding-left: 10% !important;
+    margin-top: 2%;
+}
+
+#righthand{
+    padding-left: 10% !important;
+    margin-top: 2%;
+}
+
+.enterAge {
+    color: black !important;
+    font-size: 25;
+}
+
+label{
+    font-size: 1.8rem !important;
+    color: black !important;
+}
+
+#userAge {
+    font-size: 1rem !important;
+    color: black !important;
+}
+
+#woods {
+    margin-left: 30%;
+    font-family: 'Glegoo', serif;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Glegoo', serif;
+    background-color: black;
+    height: 60px;
+    color: white;
+    font-size: 10;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    padding: 2px;
+}
+
+#background {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.para {
+    font-size: 20px;
+}
